@@ -50,3 +50,20 @@ INSERT INTO Persons (PersonID, LastName) VALUES (2, '++anonymized');
 ## Run
 
 To run the application: `SVC_NAME=//db/XEPDB1 cargo run`
+
+Output:
+
+    Service Name is //db/XEPDB1
+
+    Oracle Client Version: 21.8.0.0.0
+
+    Database Server Version: 21.3.0.0.0
+
+    Server Banner: Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+    Version 21.3.0.0.0
+
+    PERSONID LASTNAME FIRSTNAME ADDRESS CITY 
+    1,Wegner,Erik,Blumenstraße 1,Neustadt
+    2,++anonymized,NULL,NULL,NULL
+
+    Bye
